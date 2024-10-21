@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Cardiostasis contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="center_container_nav">
+        <a href="#"><img src="/images/logo.jpg" alt="logo"></a>
+        <div class="navbar_rightside_links">
+            <a href="#to_contact">Contact</a>
+            <a href="#to_form">Form</a>
+            <a href="#to_message">Message</a>
+            <a href="#footer_flex">Terms and conditions</a>
+            <a id="naar_contact" href="index.html">Home</a>
+        </div>
+    </nav>
+    <header id="to_contact" class="header_for_contact_section">
+        <section class="center_container">
+            <div>
+                <h1>contact</h1>
+                <P>Any questions about our band? Ask them here!</P>
+            </div>
+        </section>
+    </header>
+    <main  id="to_form" class="contact_M">
+        <div class="form_section_with_title">
+            <h2>Form</h2>
+            <form class="form_section">
+                <div class="form_side">
+                    <div class="form_down">
+                        <label for="first_name" >First Name</label>
+                        <input type="text" id="first_name" required name="first_name" placeholder="First name....">
+                    </div>
+                    <div class="form_down">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" required name="last_name" placeholder="Last name....">
+                    </div>
+                </div>
+
+                <div class="form_down">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required name="email" placeholder="email....">
+                </div>
+
+                <div class="form_side">
+                    <div class="form_down">
+                        <label for="city">City</label>
+                        <input type="text" id="city" required name="city" placeholder="City....">
+                    </div>
+                    <div class="form_down">
+                        <label for="birthdate">birthdate</label>
+                        <input type="date" required id="birthdate">
+                    </div>
+                </div>
+
+                <div class="form_down">
+                    <label>Subject</label>
+                    <select>
+                        <option value="" disabled selected>Choose a subject...</option>
+                        <option value="1">General</option>
+                        <option value="2">Members</option>
+                        <option value="3">Songs and covers</option>
+                        <option value="4">Our equipment</option>
+                        <option value="5">Hire our band!</option>
+                        <option value="6">Bass player auditions</option>
+                    </select>
+                </div>
+
+                <div id="to_message" class="form_down">
+                    <label>Message</label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form_down">
+                    <label>Subscribe to newsletter?</label>
+                    <div id="flex_side_for_mobile" class="form_side">
+                        <div id="form_side_radio" class="form_side">
+                            <input required type="radio" name="radio" id="radioYes">
+                            <label for="radioYes">yes</label>
+                        </div>
+                        <div id="form_side_radio2" class="form_side">
+                            <input type="radio" name="radio" id="radioNo">
+                            <label for="radioNo">no</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="form_side_checkbox" class="form_side">
+                    <div>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </div>
+                    <div>
+                        <label for="checkbox">I agree to the general terms and conditions</label>
+                    </div>
+                </div>
+
+                <div>
+                    <button>Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="footer_flex" class="center_container">
+            <a a href="https://www.instagram.com/cardiostasis/" target="_blank"><img id="footer_icon" src="/images/logo.jpg" alt="logo"></a>
+            <div class="copyright_row">
+                <div>
+                    <a href="">Copyright 2024 Cardiostasis</a>
+                </div>
+                <div class="copyright_row_right_side">
+                    <a href="#">privacy statement</a>
+                    <a href="#">general terms and conditions</a>
+                    <a href="#">cookie policy</a>
+                    <a href="contact.html">contact</a>
+                </div>
+            </div>
+            <div class="footer_socials">
+                <a href="https://open.spotify.com/artist/7cf3ASf3knuWw8DKaQe50c" target="_blank"><img
+                        src="images/icons/spotify.png" alt="spotify icon"></a>
+                <a href="https://music.youtube.com/channel/UCoR_vJNRtFTzingh-LJaFzg?si=5__orng2CqLNWzwf"
+                    target="_blank"><img src="images/icons/youtube_music.png" alt="youtube music icon"></a>
+                <a href="https://www.instagram.com/cardiostasis/" target="_blank"><img src="images/icons/instagram.png"
+                        alt="instagram icon"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
