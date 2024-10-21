@@ -192,7 +192,7 @@ header {
     padding: 20vh 10vw;
     margin: 0;
     text-align: center;
-    background-image: url("images/blurngrey.png");
+    background-image: url("/images/blurngrey.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
